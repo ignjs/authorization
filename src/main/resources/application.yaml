@@ -1,0 +1,15 @@
+server:
+  port: 3000
+spring:
+ cloud:
+   azure:
+     active-directory:
+       enabled: true
+       profile:
+         tenant-id: 
+       credential:
+         client-id: 
+         client-secret: 
+logging:
+  level:
+    ROOT: INFO
